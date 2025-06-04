@@ -12,6 +12,7 @@ import type { QueryClient } from '@tanstack/react-query'
 import { DefaultCatchBoundary } from '~/components/DefaultCatchBoundary'
 import { NotFound } from '~/components/NotFound'
 import appCss from '~/styles/app.css?url'
+import { Header } from '~/components/header'
 import { seo } from '~/utils/seo'
 
 export const Route = createRootRouteWithContext<{
@@ -69,6 +70,7 @@ export const Route = createRootRouteWithContext<{
 function RootComponent() {
   return (
     <RootDocument>
+      <Header />
       <Outlet />
     </RootDocument>
   )
