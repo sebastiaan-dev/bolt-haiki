@@ -43,6 +43,7 @@
 
                 languages = {
                   c.enable = true;
+                  cplusplus.enable = true;
 
                   javascript = {
                     enable = true;
