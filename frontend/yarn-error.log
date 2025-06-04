@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  SyntaxError: Expected ',' or '}' after property value in JSON at position 2187 (line 63 column 3)
+  SyntaxError: Expected double-quoted property name in JSON at position 2188 (line 63 column 3)
       at JSON.parse (<anonymous>)
       at eval (file:///usr/local/lib/node_modules/yarn/dist/yarn.js#cjs:1397:57)
       at Generator.next (<anonymous>)
@@ -84,7 +84,8 @@ npm manifest:
       "vinxi": "0.5.3",
       "react-hook-form": "^7.57.0",
       "use-debounce": "^10.0.0",
-      "zod": "^3.25.51"
+      "zod": "^3.25.51",
+    },
     "devDependencies": {
       "@types/node": "^22.5.4",
       "@types/react": "^19.0.8",
