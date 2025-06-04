@@ -42,6 +42,8 @@
                 packages = [ ];
 
                 languages = {
+                  c.enable = true;
+
                   javascript = {
                     enable = true;
 
